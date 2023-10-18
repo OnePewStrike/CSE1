@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Inconsolata";
-  src: url("./public/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf")
+  src: url("../public/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf")
     format("truetype");
 }
 
