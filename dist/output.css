@@ -534,16 +534,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.static {
-  position: static;
-}
-
 .fixed {
   position: fixed;
-}
-
-.absolute {
-  position: absolute;
 }
 
 .relative {
@@ -562,42 +554,12 @@ video {
   left: 0px;
 }
 
-.left-\[1\%\] {
-  left: 1%;
-}
-
 .top-0 {
   top: 0px;
 }
 
-.top-\[20\%\] {
-  top: 20%;
-}
-
-.top-\[10\%\] {
-  top: 10%;
-}
-
-.top-\[5\%\] {
-  top: 5%;
-}
-
-.top-\[6\%\] {
-  top: 6%;
-}
-
 .z-50 {
   z-index: 50;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex {
@@ -652,12 +614,12 @@ video {
   gap: 0.75rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -722,10 +684,6 @@ video {
 
 .p-2 {
   padding: 0.5rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
 }
 
 .px-4 {
@@ -798,10 +756,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -872,25 +826,5 @@ body {
 @media (min-width: 640px) {
   .sm\:hidden {
     display: none;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:left-\[15\%\] {
-    left: 15%;
-  }
-
-  .xl\:left-\[5\%\] {
-    left: 5%;
-  }
-
-  .xl\:left-\[2\%\] {
-    left: 2%;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:left-\[22\%\] {
-    left: 22%;
   }
 }
