@@ -4,13 +4,8 @@
 
 @font-face {
   font-family: "Inconsolata";
-  src: url("/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf")
+  src: url("/public/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf")
     format("truetype");
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("/fonts/inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
 }
 
 *,
@@ -19,7 +14,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Inconsolata", sans-serif;
   font-size: 1rem;
 }
 
@@ -36,12 +31,4 @@ a {
 
 body {
   font-family: "Inconsolata", sans-serif;
-}
-
-.dashboard-container {
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
