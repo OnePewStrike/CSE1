@@ -534,8 +534,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
+}
+
+.absolute {
+  position: absolute;
 }
 
 .relative {
@@ -558,8 +566,34 @@ video {
   top: 0px;
 }
 
+.left-\[1\%\] {
+  left: 1%;
+}
+
+.top-\[20\%\] {
+  top: 20%;
+}
+
+.top-\[6\%\] {
+  top: 6%;
+}
+
+.top-\[10\%\] {
+  top: 10%;
+}
+
 .z-50 {
   z-index: 50;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex {
@@ -686,6 +720,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -754,6 +792,10 @@ video {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition-colors {
@@ -826,5 +868,17 @@ body {
 @media (min-width: 640px) {
   .sm\:hidden {
     display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:left-\[15\%\] {
+    left: 15%;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:left-\[22\%\] {
+    left: 22%;
   }
 }
