@@ -2632,16 +2632,16 @@ body {
     left: 15%;
   }
 
-  .xl\:left-\[4\%\] {
-    left: 4%;
-  }
-
   .xl\:left-\[8\%\] {
     left: 8%;
   }
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:left-\[10\%\] {
+    left: 10%;
+  }
+
   .\32xl\:left-\[12\%\] {
     left: 12%;
   }
@@ -2650,7 +2650,7 @@ body {
     left: 22%;
   }
 
-  .\32xl\:left-\[6\%\] {
-    left: 6%;
+  .\32xl\:left-\[13\%\] {
+    left: 13%;
   }
 }
