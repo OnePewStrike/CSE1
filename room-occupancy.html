@@ -18,9 +18,12 @@
         class="bg-white fixed top-0 left-0 z-50 w-full p-2 px-8 flex items-center justify-between shadow shadow-lg"
       >
         <div class="flex space-x-2 items-center">
-          <div class="sm:hidden p-1 py-1.5 rounded">
+          <button
+            class="xl:hidden p-1 py-1.5 rounded cursor-pointer"
+            id="toggleNavButton"
+          >
             <img src="./public/images/bars-solid.svg" alt="bars" width="18" />
-          </div>
+          </button>
           <a href="index.html" class="flex space-x-2 items-center">
             <div class="p-2 rounded-full bg-slate-300">
               <img
@@ -32,8 +35,21 @@
             <span class="text-2xl font-semibold">CSE1</span>
           </a>
         </div>
-        <nav>
-          <ul class="flex items-center gap-6 font-semibold">
+        <nav
+          class="hidden absolute top-0 left-0 min-w-full bg-white bg-opacity-50 xl\:bg-opacity-100 xl:block xl:relative xl:h-min xl:min-w-fit"
+          id="navElement"
+        >
+          <ul
+            class="relative font-semibold bg-white border border-slate-300 min-h-screen w-64 p-4 flex flex-col gap-2 xl:w-fit xl:p-0 xl:flex-row xl:gap-6 xl:min-h-fit xl:border-0"
+          >
+            <button class="absolute right-5 top-5 xl:hidden" id="closeBtn">
+              <img
+                src="./public/images/xmark-solid.svg"
+                alt="Close"
+                width="8"
+                height="8"
+              />
+            </button>
             <li>
               <a href="index.html" class="text-slate-500 hover:text-slate-900"
                 >Dashboard</a
@@ -93,7 +109,7 @@
       </section>
 
       <section
-        class="mx-2 absolute left-[1%] top-[4%] 2xl:left-[13%] w-full mx-auto"
+        class="mx-2 absolute top-[4%] left-[1%] 2xl:left-[10%] w-full mx-auto"
       >
         <div
           class="tableauPlaceholder"
@@ -158,7 +174,7 @@
 
       <!-- Footer Section -->
       <section
-        class="fixed w-full bottom-0 left-0 flex justify-between items-center gap-6 p-2 px-8 border border-slate-300 border-x-0 bg-white"
+        class="fixed w-full bottom-0 left-0 justify-between items-center gap-2 p-2 px-8 border border-slate-300 border-x-0 bg-white sm:flex"
       >
         <div class="flex gap-2">
           <span class="text-slate-500 text-sm">
@@ -177,4 +193,5 @@
       </section>
     </div>
   </body>
+  <script src="./src/scripts.js"></script>
 </html>
