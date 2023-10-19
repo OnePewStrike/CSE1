@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Room Usage</title>
+    <title>About</title>
     <link rel="stylesheet" href="./dist/output.css" />
     <!-- Font Awesome Link -->
     <script
@@ -70,7 +70,7 @@
             <li>
               <a
                 href="room-usage.html"
-                class="text-slate-900 text-slate-500 hover:text-slate-900"
+                class="text-slate-500 hover:text-slate-900"
                 >Room Usage</a
               >
             </li>
@@ -86,64 +86,20 @@
       </section>
 
       <!-- Table Section -->
-      <section class="mx-2 absolute left-[1%] top-[4%] w-full mx-auto">
-        <div
-          class="tableauPlaceholder"
-          id="viz1697682270952"
-          style="position: relative"
-        >
-          <noscript>
-            <a href="#">
-              <img
-                alt="Schedule of Room Usage by College and Class in each Semester from 2021 to 2024"
-                src="https://public.tableau.com/static/images/SU/SUEnrollmentDataExercisev2/ScheduleofRoomUsagebyCollegeandClassineachSemesterfrom2021to2024/1_rss.png"
-                style="border: none"
-              />
-            </a>
-          </noscript>
-          <object class="tableauViz" style="display: none">
-            <param
-              name="host_url"
-              value="https%3A%2F%2Fpublic.tableau.com%2F"
-            />
-            <param name="embed_code_version" value="3" />
-            <param name="site_root" value="" />
-            <param
-              name="name"
-              value="SUEnrollmentDataExercisev2/ScheduleofRoomUsagebyCollegeandClassineachSemesterfrom2021to2024"
-            />
-            <param name="tabs" value="no" />
-            <param name="toolbar" value="yes" />
-            <param
-              name="static_image"
-              value="https://public.tableau.com/static/images/SU/SUEnrollmentDataExercisev2/ScheduleofRoomUsagebyCollegeandClassineachSemesterfrom2021to2024/1.png"
-            />
-            <param name="animate_transition" value="yes" />
-            <param name="display_static_image" value="yes" />
-            <param name="display_spinner" value="yes" />
-            <param name="display_overlay" value="yes" />
-            <param name="display_count" value="yes" />
-            <param name="language" value="en-US" />
-          </object>
+      <section
+        class="min-h-screen flex flex-col items-center justify-center gap-8"
+      >
+        <img src="./public/images/data.svg" alt="Data" width="500" />
+        <div class="text-center font-medium grid gap-4">
+          <div class="">
+            In fulfillment of the midterm requirements for
+            <span class="text-violet-700 font-semibold"
+              >COMPSCI E2 Professional Elective 2/ INFO SYS E3</span
+            >
+            @Oct 2023
+          </div>
+          <span> Tableau Final Output </span>
         </div>
-        <script type="text/javascript">
-          var divElement = document.getElementById("viz1697682270952");
-          var vizElement = divElement.getElementsByTagName("object")[0];
-          if (divElement.offsetWidth > 800) {
-            vizElement.style.width = "100%";
-            vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
-          } else if (divElement.offsetWidth > 500) {
-            vizElement.style.width = "100%";
-            vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
-          } else {
-            vizElement.style.width = "100%";
-            vizElement.style.height = "777px";
-          }
-          var scriptElement = document.createElement("script");
-          scriptElement.src =
-            "https://public.tableau.com/javascripts/api/viz_v1.js";
-          vizElement.parentNode.insertBefore(scriptElement, vizElement);
-        </script>
       </section>
 
       <!-- Footer Section -->
